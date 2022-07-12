@@ -2,7 +2,8 @@
     "name": "nhutnguyenvu/testcomposer",
     "description": "test",
     "type": "project",
-    "license": [
-        "proprietary"
-    ]
+    "require" : {
+        "php" : ">=7.4",
+        "ext-mbstring": "*"
+    }
 }
