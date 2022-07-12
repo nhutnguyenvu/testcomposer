@@ -5,5 +5,5 @@
     "license": [
         "proprietary"
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
