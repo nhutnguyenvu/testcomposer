@@ -1,9 +1,14 @@
 {
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b0a127fb3116e26dddf6d03bb6d270fd",
     "packages": [
         {
             "name": "nhutnguyenvu/alphabet-option-testing",
             "version": "1.0.2",
-            "version_normalized": "1.0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nhutnguyenvu/alphabet-option.git",
@@ -19,9 +24,7 @@
                 "ext-mbstring": "*",
                 "php": ">=7.4"
             },
-            "time": "2022-08-02T03:20:25+00:00",
             "type": "project",
-            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
@@ -31,9 +34,19 @@
                 "issues": "https://github.com/nhutnguyenvu/alphabet-option/issues",
                 "source": "https://github.com/nhutnguyenvu/alphabet-option/tree/1.0.2"
             },
-            "install-path": "../nhutnguyenvu/alphabet-option-testing"
+            "time": "2022-08-02T03:20:25+00:00"
         }
     ],
-    "dev": true,
-    "dev-package-names": []
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.4",
+        "ext-mbstring": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }

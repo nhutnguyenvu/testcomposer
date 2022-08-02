@@ -1,11 +1,10 @@
 {
-    "name": "nhutnguyenvu/testcomposer",
+    "name": "nhutnguyenvu/alphabet-option-testing",
     "description": "test",
     "type": "project",
     "require" : {
         "php" : ">=7.4",
-        "ext-mbstring": "*",
-        "nhutnguyenvu/alphabet-option-testing": "1.0.2"
+        "ext-mbstring": "*"
     },
     "license": [
         "proprietary"
