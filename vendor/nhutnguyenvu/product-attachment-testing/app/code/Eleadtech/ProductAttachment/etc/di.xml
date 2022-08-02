@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Quote\Api\Data\CartItemInterface">
+        <arguments>
+            <argument name="layoutProcessors" xsi:type="array">
+                <item name="%unique_name%" xsi:type="object">%path\to\your\LayoutProcessor%</item>
+            </argument>
+        </arguments>
+    </type>
+    <!--
+    <type name="Magento\Checkout\Model\Cart">
+        <plugin name="addParentItemCustomOption" type="\Eleadtech\ProductAttachment\Plugin\Model\Cart\AddCustomOption" sortOrder="1"/>
+    </type>
+    -->
+    <!--
+    <type name="Magento\Quote\Model\Quote">
+        <plugin name="addParentItemCustomOption" type="\Eleadtech\ProductAttachment\Plugin\Model\Quote\AddCustomOption" sortOrder="1"/>
+    </type>
+    -->
+    <type name="Magento\Quote\Model\Quote">
+        <plugin name="processRemoveItem" type="\Eleadtech\ProductAttachment\Plugin\Model\Quote\ProcessAttachments" sortOrder="1"/>
+    </type>
+    <type name="Magento\Quote\Model\Quote\Item\Repository">
+        <plugin name="addParentItemCustomOptionByApi" type="\Eleadtech\ProductAttachment\Plugin\Model\Cart\Api\ProcessAttachments" sortOrder="1"/>
+    </type>
+    <preference for="Eleadtech\ProductAttachment\Api\AttachmentsInterface" type="Eleadtech\ProductAttachment\Model\Api\Attachments"/>
+    <preference for="Eleadtech\ProductAttachment\Data\AttachmentsInterface\InfoInterface" type="Eleadtech\ProductAttachment\Model\Info"/>
+    <preference for="Eleadtech\ProductAttachment\Data\AttachmentsInterface" type="Eleadtech\ProductAttachment\Model\Pattachment"/>
+</config>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/layout_generic.xsd">
+    <container name="root" label="Root">
+        <block class="Eleadtech\ProductAttachment\Block\Adminhtml\ProductAttachment\Edit\Grid" name="eleadtech.attachment.edit.grid.products"/>
+        <block class="Magento\Backend\Block\Template" name="js_grid_reload_products" template="Eleadtech_ProductAttachment::productattachment/reload_js_grid_products.phtml"/>
+    </container>
+</layout>

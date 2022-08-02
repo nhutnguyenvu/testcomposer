@@ -32,6 +32,39 @@
                 "source": "https://github.com/nhutnguyenvu/alphabet-option/tree/1.0.2"
             },
             "install-path": "../nhutnguyenvu/alphabet-option-testing"
+        },
+        {
+            "name": "nhutnguyenvu/product-attachment-testing",
+            "version": "2.0.0",
+            "version_normalized": "2.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nhutnguyenvu/product-attachment.git",
+                "reference": "d327b85dd0faf6cf06fd6f86e4c211dddd971b84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nhutnguyenvu/product-attachment/zipball/d327b85dd0faf6cf06fd6f86e4c211dddd971b84",
+                "reference": "d327b85dd0faf6cf06fd6f86e4c211dddd971b84",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=7.4"
+            },
+            "time": "2022-08-02T04:05:20+00:00",
+            "type": "project",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "test2ss22",
+            "support": {
+                "issues": "https://github.com/nhutnguyenvu/product-attachment/issues",
+                "source": "https://github.com/nhutnguyenvu/product-attachment/tree/2.0.0"
+            },
+            "install-path": "../nhutnguyenvu/product-attachment-testing"
         }
     ],
     "dev": true,

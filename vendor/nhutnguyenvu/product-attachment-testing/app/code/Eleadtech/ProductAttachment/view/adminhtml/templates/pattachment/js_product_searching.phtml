@@ -1,0 +1,13 @@
+<?php
+    $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+    $helper = $objectManager->create('Magento\Backend\Model\UrlInterface');
+?>
+<script type="text/x-magento-init">
+{
+    ".productattachment-pattachment-edit #page_sku": {
+        "product_searching": {
+            "url": "<?php echo $helper->getUrl("productattachment/pattachment/searchProducts") ?>"
+        }
+    }
+}
+</script>

@@ -1,0 +1,18 @@
+<?php
+    $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+    $helper = $objectManager->create('Magento\Backend\Model\UrlInterface');
+?>
+
+<script>
+{
+    require([
+        "jquery"
+    ], function($){
+        var options = {'url':'<?php echo $helper->getUrl("productattachment/pattachment/updateAttachment") ?>'
+            ,"defaulPriceType": "<?php echo \Eleadtech\ProductAttachment\Model\PriceType::FIXED ?>"
+            ,"nonPrice": "<?php echo  \Eleadtech\ProductAttachment\Model\Pattachment::NONE_CUSTOM_PRICE ?>"
+        };
+        $(".productattachment-pattachment-edit #productsGrid_table").update_attachment(options);
+    });
+}
+</script>

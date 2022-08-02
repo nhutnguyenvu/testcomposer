@@ -1,0 +1,14 @@
+<?php
+    $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+    $url = $objectManager->create('\Magento\Framework\UrlInterface');
+?>
+<script type="text/x-magento-init">
+{
+    ".checkout-cart-index": {
+        "Eleadtech_ProductAttachment/js/checkout/action/attachment_action": {
+            "cartSelector": ".checkout-cart-index #shopping-cart-table",
+            "attachmentIds": <?php echo $this->getAllAttachmentItems() ?>
+        }
+    }
+}
+</script>

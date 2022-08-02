@@ -1,0 +1,36 @@
+.productattachment-pattachment-edit .col-action.col-edit{
+    width: 120px;
+}
+.productattachment-pattachment-edit .col-qty{
+    width: 70px;
+}
+.productattachment-pattachment-edit .col-qty input{
+    width: 70px;
+}
+.productattachment-pattachment-edit ul{
+    list-style-type: none;
+}
+.productattachment-pattachment-edit .ui-autocomplete{
+    list-style-type: none;
+}
+.productattachment-pattachment-edit ul li{
+    list-style-type: none;
+    padding: 5px 0px;
+}
+.productattachment-pattachment-edit ul li a:hover{
+    cursor: pointer;
+}
+.productattachment-pattachment-edit .ui-helper-hidden-accessible{
+    display: none;
+}
+.productattachment-pattachment-edit ul li a{
+    color: #000000b8;
+}
+.productattachment-pattachment-edit .ui-autocomplete.ui-menu{
+    /*background: #FFF;*/
+}
+td.col-group_attachment span{
+    width: 180px;
+    display: inline-block;
+}
+

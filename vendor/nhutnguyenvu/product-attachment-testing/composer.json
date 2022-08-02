@@ -1,0 +1,13 @@
+{
+    "name": "nhutnguyenvu/product-attachment-testing",
+    "description": "test2ss22",
+    "type": "project",
+    "require" : {
+        "php" : ">=7.4",
+        "ext-mbstring": "*"
+    },
+    "license": [
+        "proprietary"
+    ],
+    "version": "2.0.0"
+}

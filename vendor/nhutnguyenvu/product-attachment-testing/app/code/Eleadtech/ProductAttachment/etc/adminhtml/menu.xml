@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+		<add id="Eleadtech_ProductAttachment::pattachment" title="Attachment Product" module="Eleadtech_ProductAttachment" sortOrder="20" parent="Eleadtech_Bcore::backend" action="productattachment/pattachment" resource="Eleadtech_ProductAttachment::pattachment"/>
+        <add id="Eleadtech_ProductAttachment::configuration" title="Settings" module="Eleadtech_ProductAttachment" sortOrder="22" parent="Eleadtech_ProductAttachment::pattachment" action="adminhtml/system_config/edit/section/productattachment" resource="Eleadtech_ProductAttachment::configuration"/>
+    </menu>
+</config>

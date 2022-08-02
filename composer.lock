@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0a127fb3116e26dddf6d03bb6d270fd",
+    "content-hash": "1174e0b5d99dc39185f6dae05962f9f3",
     "packages": [
         {
             "name": "nhutnguyenvu/alphabet-option-testing",
@@ -35,6 +35,36 @@
                 "source": "https://github.com/nhutnguyenvu/alphabet-option/tree/1.0.2"
             },
             "time": "2022-08-02T03:20:25+00:00"
+        },
+        {
+            "name": "nhutnguyenvu/product-attachment-testing",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nhutnguyenvu/product-attachment.git",
+                "reference": "d327b85dd0faf6cf06fd6f86e4c211dddd971b84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nhutnguyenvu/product-attachment/zipball/d327b85dd0faf6cf06fd6f86e4c211dddd971b84",
+                "reference": "d327b85dd0faf6cf06fd6f86e4c211dddd971b84",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=7.4"
+            },
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "test2ss22",
+            "support": {
+                "issues": "https://github.com/nhutnguyenvu/product-attachment/issues",
+                "source": "https://github.com/nhutnguyenvu/product-attachment/tree/2.0.0"
+            },
+            "time": "2022-08-02T04:05:20+00:00"
         }
     ],
     "packages-dev": [],

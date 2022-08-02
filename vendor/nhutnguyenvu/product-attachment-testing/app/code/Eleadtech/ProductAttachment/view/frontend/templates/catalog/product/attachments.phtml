@@ -1,0 +1,35 @@
+<?php if($block->canShow()):?>
+    <?php $attachments = $block->getAttachments() ?>
+    <?php if(!empty($attachments)): ?>
+        <div class="title block-title">
+            <strong><?php echo $block->getAttachmentMessage(); ?></strong>
+        </div>
+    <br>
+        <div class="table-wrapper orders-history">
+            <table class="data table table-order-items history" id="">
+                <thead>
+                    <tr>
+                        <th scope="col" class="col image"><?php echo __("Image") ?></th>
+                        <th scope="col" class="col sku"><?php echo __("Product Name (SKU)") ?></th>
+                        <th scope="col" class="col qty"><?php echo __("Qty") ?></th>
+                    </tr>
+                </thead>
+                <?php foreach ($attachments as $attachment): ?>
+                    <tbody>
+                        <tr>
+                            <td data-th="Image" class="col image">
+                                <span><img src="<?php echo $attachment['image'] ?>" alt="<?php echo $attachment['name'] ?> "/></span>
+                            </td>
+                            <td data-th="Product Name (SKU)" class="col sku">
+                                <?php echo $attachment['name'] ?> (<?php echo ($attachment['sku']) ?>)
+                            </td>
+                            <td data-th="Qty" class="col qty">
+                                <?php echo __($attachment['qty']); ?>
+                            </td>
+                        </tr>
+                    </tbody>
+                <?php endforeach;  ?>
+            </table>
+        </div>
+    <?php endif ?>
+<?php endif ?>
