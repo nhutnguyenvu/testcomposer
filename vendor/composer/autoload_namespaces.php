@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    '' => array($baseDir . '/nhutnguyenvu/alphabet-option-testing/app/code'),
+    'Eleadtech\\' => array($baseDir . '/src1'),
 );

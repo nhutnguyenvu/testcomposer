@@ -14,9 +14,11 @@
     "autoload": {
         "files": ["abc.php"],
         "psr-0": {
-            "": [
-                "nhutnguyenvu/alphabet-option-testing/app/code"
-            ]
+            "": ""
+        },
+        "psr-0": {
+            "Eleadtech\\": "src"
         }
+
     }
 }
