@@ -3,7 +3,7 @@
         'name' => 'nhutnguyenvu/testcomposer',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '33c3c9c3aa6e23d25823cc1666066bf5f276ee3f',
+        'reference' => '0752fbadfe75dbaf736c4b9e9edd087a7f2482cd',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,7 +31,7 @@
         'nhutnguyenvu/testcomposer' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '33c3c9c3aa6e23d25823cc1666066bf5f276ee3f',
+            'reference' => '0752fbadfe75dbaf736c4b9e9edd087a7f2482cd',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

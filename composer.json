@@ -15,7 +15,7 @@
         "files": ["abc.php"],
         "psr-0": {
             "": [
-                "app/code/"
+                "nhutnguyenvu/alphabet-option-testing/app/code"
             ]
         }
     }

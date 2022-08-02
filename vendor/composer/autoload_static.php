@@ -11,7 +11,7 @@ class ComposerStaticInit26721bced03c5fb3e0c245baae1b2240
     );
 
     public static $fallbackDirsPsr0 = array (
-        0 => __DIR__ . '/../..' . '/app/code',
+        0 => __DIR__ . '/../..' . '/nhutnguyenvu/alphabet-option-testing/app/code',
     );
 
     public static $classMap = array (
