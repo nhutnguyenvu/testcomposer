@@ -35,34 +35,34 @@
         },
         {
             "name": "nhutnguyenvu/product-attachment-testing",
-            "version": "2.0.0",
-            "version_normalized": "2.0.0.0",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nhutnguyenvu/product-attachment.git",
-                "reference": "d327b85dd0faf6cf06fd6f86e4c211dddd971b84"
+                "reference": "435c5a2481d9fc2abba40e6df5b379e9db06acde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nhutnguyenvu/product-attachment/zipball/d327b85dd0faf6cf06fd6f86e4c211dddd971b84",
-                "reference": "d327b85dd0faf6cf06fd6f86e4c211dddd971b84",
+                "url": "https://api.github.com/repos/nhutnguyenvu/product-attachment/zipball/435c5a2481d9fc2abba40e6df5b379e9db06acde",
+                "reference": "435c5a2481d9fc2abba40e6df5b379e9db06acde",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
                 "php": ">=7.4"
             },
-            "time": "2022-08-02T04:05:20+00:00",
+            "time": "2022-08-02T03:45:39+00:00",
             "type": "project",
             "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
-            "description": "test2ss22",
+            "description": "test222",
             "support": {
                 "issues": "https://github.com/nhutnguyenvu/product-attachment/issues",
-                "source": "https://github.com/nhutnguyenvu/product-attachment/tree/2.0.0"
+                "source": "https://github.com/nhutnguyenvu/product-attachment/tree/1.0.0"
             },
             "install-path": "../nhutnguyenvu/product-attachment-testing"
         }
