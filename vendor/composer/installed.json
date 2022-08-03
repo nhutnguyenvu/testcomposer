@@ -35,34 +35,39 @@
         },
         {
             "name": "nhutnguyenvu/product-attachment-testing",
-            "version": "1.0.0",
-            "version_normalized": "1.0.0.0",
+            "version": "2.1.4",
+            "version_normalized": "2.1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nhutnguyenvu/product-attachment.git",
-                "reference": "435c5a2481d9fc2abba40e6df5b379e9db06acde"
+                "reference": "626aeb62a75dc3793f3ea8f0d659318904d054df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nhutnguyenvu/product-attachment/zipball/435c5a2481d9fc2abba40e6df5b379e9db06acde",
-                "reference": "435c5a2481d9fc2abba40e6df5b379e9db06acde",
+                "url": "https://api.github.com/repos/nhutnguyenvu/product-attachment/zipball/626aeb62a75dc3793f3ea8f0d659318904d054df",
+                "reference": "626aeb62a75dc3793f3ea8f0d659318904d054df",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
                 "php": ">=7.4"
             },
-            "time": "2022-08-02T03:45:39+00:00",
+            "time": "2022-08-02T08:24:21+00:00",
             "type": "project",
             "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Eleadtech\\": "app/code"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
-            "description": "test222",
+            "description": "test2ss22",
             "support": {
                 "issues": "https://github.com/nhutnguyenvu/product-attachment/issues",
-                "source": "https://github.com/nhutnguyenvu/product-attachment/tree/1.0.0"
+                "source": "https://github.com/nhutnguyenvu/product-attachment/tree/2.1.4"
             },
             "install-path": "../nhutnguyenvu/product-attachment-testing"
         }

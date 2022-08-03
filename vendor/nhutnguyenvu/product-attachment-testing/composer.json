@@ -1,6 +1,6 @@
 {
     "name": "nhutnguyenvu/product-attachment-testing",
-    "description": "test222",
+    "description": "test2ss22",
     "type": "project",
     "require" : {
         "php" : ">=7.4",
@@ -8,5 +8,11 @@
     },
     "license": [
         "proprietary"
-    ]
+    ],
+    "version": "2.1.4",
+    "autoload": {
+        "psr-4": {
+            "Eleadtech\\": "app/code"
+        }
+    }
 }

@@ -10,13 +10,17 @@ class ComposerStaticInit26721bced03c5fb3e0c245baae1b2240
         '3dd41809ef1b7c3022356ff56b16a316' => __DIR__ . '/../..' . '/abc.php',
     );
 
-    public static $prefixesPsr0 = array (
+    public static $prefixLengthsPsr4 = array (
         'E' => 
         array (
-            'Eleadtech\\' => 
-            array (
-                0 => __DIR__ . '/../..' . '/src1',
-            ),
+            'Eleadtech\\' => 10,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Eleadtech\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/nhutnguyenvu/product-attachment-testing/app/code',
         ),
     );
 
@@ -27,7 +31,9 @@ class ComposerStaticInit26721bced03c5fb3e0c245baae1b2240
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixesPsr0 = ComposerStaticInit26721bced03c5fb3e0c245baae1b2240::$prefixesPsr0;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit26721bced03c5fb3e0c245baae1b2240::$prefixLengthsPsr4;
+
+            $loader->prefixDirsPsr4 = ComposerStaticInit26721bced03c5fb3e0c245baae1b2240::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInit26721bced03c5fb3e0c245baae1b2240::$classMap;
 
         }, null, ClassLoader::class);

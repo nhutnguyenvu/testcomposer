@@ -1,4 +1,4 @@
 <?php
 function test(){
-    echo "sss";
+    echo "test";
 }
